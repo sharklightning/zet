@@ -1,0 +1,2 @@
+# how to output an isosecond
+date -u +%Y%m%d%H%M%S
