@@ -1,0 +1,18 @@
+# linux distros that are important in enterprise today
+
+Debian based distros:
+ubuntu 
+alpine (for containers)
+
+Red hat
+ - they invented systemd, controversially
+fedora (free version)
+
+SUSE
+
+
+history of unix systems:
+https://en.wikipedia.org/wiki/File:Unix_history-simple.svg
+
+history of linux distros:
+https://www.cyberciti.biz/tips/wp-content/uploads/2007/06/44218-linuxdistrotimeline-7.2.png
