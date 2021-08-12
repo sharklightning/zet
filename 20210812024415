@@ -1,0 +1,5 @@
+# how to do a reference link in common markdown
+
+[This is an example link] [reference]
+
+[reference]: https://github.com/sharklightning/zet/new/main
