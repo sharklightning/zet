@@ -3,3 +3,6 @@
 [This is an example link] [reference]
 
 [reference]: <https://github.com/sharklightning/zet/new/main>
+
+// what is the point? This is an alternative to using inline links when you have a long url. An inline link will look like:
+Here is an inline [link to this page itself] (https://github.com/sharklightning/zet/new/main).
