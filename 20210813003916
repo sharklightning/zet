@@ -1,0 +1,15 @@
+# busybox containers
+rwxrob says:
+
+pretty much every serious container with applications in them is a busybox container
+
+a busybox container is 1.2mb by default
+
+copyxseraph says: busybox with JQ is the best container
+
+alpine uses busybox but the old version and has simlinks, the latest busybox uses hardlinks
+
+taniwah3 says: tinybox is what you use for tiny glibc apps... but alpine gets you mu-- <<couldnt read the rest of comment>>
+ ---> taniwah3 follows up with: most alpine containers run on larger systems
+ 
+ 
