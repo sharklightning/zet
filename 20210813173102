@@ -1,0 +1,21 @@
+# career paths
+
+* hacking /cyber
+    * half the job is writing reports
+    
+* infrastructure engineering with cloud native infrastructure
+  * this is what rwxrob does
+  * spends more time on the command line than most pentesters because they are busy writing reports
+  * kubernetes, docker
+  * pays really well
+  * almost no documentation, no reports, almost entirely on the terminal aside from stand ups
+  * dif from devs is that developers are under a lot more pressure to hit deadlines
+  * constantly get new challenges; 
+      * e.g. today integrate jupiter hub with our infrastructure, tomorrow write a script that reports on how many nodes are in our cluster and what state they are in
+      * tons of variety, consistent with the daily activities that you enjoy about hacking
+
+* dev ops can suck if you are writing yaml all day
+  * infrastructure engineering and sre might be more fun for a hacker
+
+  
+  
