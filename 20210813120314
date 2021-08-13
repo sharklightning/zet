@@ -1,0 +1,11 @@
+# inter-process communication
+
+* in addition to making system calls to communicate with the kernel, processes can communicate with each other in a few ways:
+  * 2 processes can share the same space in memory and look at the same space in memory (this is the fastest but dangerous)
+  * they can talk to each other through some sort of event system
+      * the kill command, for example, is a process that uses an event system to end other processes
+  * they can communicate through [sockets][s], which are a special type of file, either locally or through the internet
+      * the TCP/IP stack with a server and a client is implemented using sockets
+  * sometimes they will even just write to a file and then the other program will see that the file has been written to and it will grab it and go on
+  
+  [s]: <https://www.tutorialspoint.com/unix_sockets/what_is_socket.htm>
