@@ -12,4 +12,4 @@ Unix/Linux
     * the fundamental abstraction/interface: everything is a file (actually, an inode)
     * everything is running as a process; a process is just anything that runs on a computer
     * in order to coordinate between the hardware devices and what the user wants (output), the OS/kernel uses the idea of the process
-    * kubernetes is an abstraction that directly models the OS for IT
+    * kubernetes is an abstraction that directly models the OS for IT 
