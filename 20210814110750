@@ -1,0 +1,7 @@
+# how sre is different from devops
+
+"DevOps is a more recent movement, designed to help organizations’ IT department move in agile and performant ways. It builds a healthy working relationship between the Operations staff and Dev team, allowing each to see how their work influences and affects the other. By combining knowledge and effort, DevOps should produce a more robust, reliable, agile product.
+
+Both SRE and DevOps are methodologies addressing organizations’ needs for production operation management. But the differences between the two doctrines are quite significant: While DevOps raise problems and dispatch them to Dev to solve, the SRE approach is to find problems and solve some of them themselves. While DevOps teams would usually choose the more conservative approach, leaving the production environment untouched unless absolutely necessary, SREs are more confident in their ability to maintain a stable production environment and push for rapid changes and software updates. "
+
+[SRE vs. DevOps — a False Distinction?] (<https://devops.com/sre-vs-devops-false-distinction/>)
