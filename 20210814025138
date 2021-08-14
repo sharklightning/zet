@@ -6,3 +6,7 @@ code -r .
 
 { reset to the current directory from the command line and open vscode from there }
  
+ 
+code .
+
+{ will simply open vscode from current directory }
