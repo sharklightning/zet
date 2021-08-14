@@ -5,3 +5,4 @@ from the command line:
 code -r . 
 
 { reset to the current directory from the command line and open vscode from there }
+ 
