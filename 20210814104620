@@ -1,0 +1,15 @@
+# google sre qualifications
+
+"A primary building block of Google’s approach to service management is the composition of each SRE team. As a whole, SREs can be broken down into two main categories.
+
+50–60% are Google Software Engineers, or more precisely, people who have been hired via the standard procedure for Google Software Engineers. The other 40–50% are candidates who were very close to the Google Software Engineering qualifications (i.e., 85–99% of the skill set required), and who in addition had a set of technical skills that is useful to SRE but is rare for most software engineers. 
+
+***By far, UNIX system internals and networking (Layer 1 to Layer 3) expertise are the two most common types of alternate technical skills we seek.***
+
+Common to all SREs is the belief in and aptitude for developing software systems to solve complex problems...
+
+The result of our approach to hiring for SRE is that we end up with a team of people who (a) will quickly become bored by performing tasks by hand, and (b) have the skill set necessary to write software to replace their previously manual work, even when the solution is complicated...
+
+Therefore, SRE is fundamentally doing work that has historically been done by an operations team, but using engineers with software expertise, and banking on the fact that these engineers are inherently both predisposed to, and have the ability to, design and implement automation with software to replace human labor."
+
+[Google’s Approach to Service Management: Site Reliability Engineering] (<https://sre.google/sre-book/introduction/>)
