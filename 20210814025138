@@ -4,4 +4,4 @@ from the command line:
 
 code -r . 
 
-{replaces current context with the directory you are in}
+{ reset to the current directory from the command line and open vscode from there }
