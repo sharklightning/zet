@@ -1,0 +1,7 @@
+# change workspace context of vscode
+
+from the command line:
+
+code -r . 
+
+{replaces current context with the directory you are in}
