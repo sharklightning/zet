@@ -1,0 +1,6 @@
+# using docker to learn network engineering
+
+idea (from rwxrob):
+* you could fire up 10 different docker containers with different IP configurations and then try to make them talk to each other
+* then (from a cybersecurity standpoint) you could connect another docker container to the same network and do packet sniffing to see how chatty a particular app is
+
