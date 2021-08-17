@@ -1,0 +1,9 @@
+# bash vs. posix shell
+
+use bash for interactivity, posix for scripting
+
+bash is an interactive shell 
+  * includes tab completion and user customizations
+  
+posix lacks the interactive features of bash is more universal and less bloated, and for these reasons it is better for scripting
+
