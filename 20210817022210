@@ -6,5 +6,8 @@ command line interface is entirely REPL based:
   * print - output the result
   * loop - repeat (prompt user for another command)
   
-A terminal is a richer (but still text based) user interface (you can create clickable links, terminal art, etc.)
+Every command line you enter is a line of shell code
   
+A terminal is a richer (but still text based) user interface (you can create clickable links, terminal art, etc.)
+
+
