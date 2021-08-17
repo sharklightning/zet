@@ -1,0 +1,10 @@
+# cli vs terminal
+
+command line interface is entirely REPL based:
+  * read - read a command
+  * evaluate - perform the calculation 
+  * print - output the result
+  * loop - repeat (prompt user for another command)
+  
+A terminal is a richer (but still text based) user interface (you can create clickable links, terminal art, etc.)
+  
