@@ -1,0 +1,17 @@
+# basic bash commands
+
+* `ctrl-c` to interrupt processes
+* `ctrl-s/ctrl-q` to suspend/unsuspend terminal
+* `reset` to fix the terminal
+* `watch` to repeat things
+* `man` to read man-pages
+* `less`/`more` to manipulating paging output
+* `ls` to list files and dirs
+* `pwd` for current working dir
+* `cd` to change dir
+* `clear` to clear screen
+* `cal` to view calendar
+* `date` to view dates and times
+* `bc` to do math calculations
+* `ps -aef | more` or `top` to see running processes
+* `tree | more` to list directories as a tree=like structure
