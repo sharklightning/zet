@@ -1,0 +1,74 @@
+# Debian Almquist shell (dash)
+
+"Dash is an acronym for Debian Almquist shell (dash). It is a Unix and Linux shell which is much smaller than bash but still aiming at POSIX-compliancy. dash is a POSIX-compliant implementation of /bin/sh that aims to be as small as possible. "
+
+[Linux: What is Dash ( /bin/dash ) Shell?] (<https://www.cyberciti.biz/faq/debian-ubuntu-linux-binbash-vs-bindash-vs-binshshell/>)
+
+from: ~$ man dash
+
+"  Overview
+     The shell is a command that reads lines
+     from either a file or the terminal, in-
+     terprets them, and generally executes
+     other commands.  It is the program that
+     is running when a user logs into the sys-
+     tem (although a user can select a differ-
+     ent shell with the chsh(1) command).  The
+     shell implements a language that has flow
+     control constructs, a macro facility that
+     provides a variety of features in addi-
+     tion to data storage, along with built in
+     history and line editing capabilities.
+     It incorporates many features to aid in-
+     teractive use and has the advantage that
+     the interpretative language is common to
+     both interactive and non-interactive use
+     (shell scripts).  That is, commands can
+     be typed directly to the running shell or
+     can be put into a file and the file can
+     be executed directly by the shell.
+
+   Invocation
+     If no args are present and if the stan-
+     dard input of the shell is connected to a
+     terminal (or if the -i flag is set), and
+     the -c option is not present, the shell
+     is considered an interactive shell.  An
+     interactive shell generally prompts be-
+     fore each command and handles programming
+     and command errors differently (as de-
+     scribed below).  When first starting, the
+     shell inspects argument 0, and if it be-
+     gins with a dash '-', the shell is also
+     considered a login shell.  This is nor-
+     mally done automatically by the system
+     when the user first logs in.  A login
+     shell first reads commands from the files
+     /etc/profile and .profile if they exist.
+     If the environment variable ENV is set on
+     entry to an interactive shell, or is set
+     in the .profile of a login shell, the
+     shell next reads commands from the file
+     named in ENV.  Therefore, a user should
+     place commands that are to be executed
+     only at login time in the .profile file,
+     and commands that are executed for every
+     interactive shell inside the ENV file.
+     To set the ENV variable to some file,
+     place the following line in your .profile
+     of your home directory
+
+           ENV=$HOME/.shinit; export ENV
+
+     substituting for ".shinit" any filename
+     you wish.
+
+     If command line arguments besides the op-
+     tions have been specified, then the shell
+     treats the first argument as the name of
+     a file from which to read commands (a
+     shell script), and the remaining argu-
+     ments are set as the positional parame-
+     ters of the shell ($1, $2, etc).  Other-
+     wise, the shell reads commands from its
+     standard input."
