@@ -1,0 +1,5 @@
+# make an infinite loop in bash
+
+while true; do echo blah; sleep .2; done
+
+ctrl + c to cancel
