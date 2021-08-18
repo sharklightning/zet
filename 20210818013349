@@ -1,51 +1,8 @@
-# what is a pager? (~$ man)
+# what is a pager?
 
 [What is a pager?] (https://unix.stackexchange.com/questions/144016/what-is-a-pager>)
 
-~$ man man:
+pager is a program that displays text in "pages" on the terminal.
 
-      "man is the system's manual pager.  Each
-       page argument given to man is  normally
-       the name of a program, utility or func-
-       tion.  The manual page associated  with
-       each  of  these arguments is then found
-       and displayed.  A section, if provided,
-       will  direct  man  to look only in that
-       section of the manual.  The default ac-
-       tion  is to search in all of the avail-
-       able sections following  a  pre-defined
-       order  (see DEFAULTS), and to show only
-       the first page found, even if page  ex-
-       ists in several sections.
+space to page down, b to page back, /monkeys to search for "monkeys"
 
-       The  table below shows the section num-
-       bers of  the  manual  followed  by  the
-       types of pages they contain.
-
-       1   Executable  programs  or shell com-
-           mands
-       2   System calls (functions provided by
-           the kernel)
-       3   Library   calls  (functions  within
-           program libraries)
-       4   Special  files  (usually  found  in
-           /dev)
-       5   File  formats and conventions, e.g.
-           /etc/passwd
-       6   Games
-       7   Miscellaneous   (including    macro
-           packages   and  conventions),  e.g.
-           man(7), groff(7)
-       8   System   administration    commands
-           (usually only for root)
-       9   Kernel routines [Non standard]
-
-       A  manual page consists of several sec-
-       tions.
-
-       Conventional  section   names   include
-       NAME, SYNOPSIS, CONFIGURATION, DESCRIP-
-       TION,   OPTIONS,    EXIT STATUS,    RE-
-       TURN VALUE, ERRORS, ENVIRONMENT, FILES,
-       VERSIONS, CONFORMING TO,  NOTES,  BUGS,
-       EXAMPLE, AUTHORS, and SEE ALSO."
