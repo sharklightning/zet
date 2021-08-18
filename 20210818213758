@@ -1,4 +1,4 @@
-# basic bash commands
+# some basic bash commands
 
 * `ctrl-c` to interrupt processes
 * `ctrl-s/ctrl-q` to suspend/unsuspend terminal
