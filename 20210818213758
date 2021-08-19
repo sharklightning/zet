@@ -11,6 +11,8 @@
 * `cal` to view calendar
 * `date` to view dates and times
 * `bc` to do math calculations
+    * set scalle for floating point numbers: scale=2 will give two numbers after the decimal (e.g .00)
+    * if you are going to put everything on the same line make sure you use semi-colons between them
 * `ps -aef | more` or `top` to see running processes
 * `tree | more` to list directories as a tree=like structure
 
