@@ -1,0 +1,8 @@
+# manage background and foreground processes 
+
+  * `ctrl-z` runs a process in the background
+  * `fg` foregrounds a running process
+  
+  * to deliberately run a program in the background from the command line place an & at the end:
+    * `while true; do printf "$(rndcolor)hello"; sleep 0.5; done &`
+    * to kill this process you have to `fg` first to bring it to the foreground, and then `ctrl-c` to interrupt
