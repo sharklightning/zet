@@ -1,9 +1,7 @@
 # some basic bash commands
 
-* `ctrl-c` to interrupt processes
-* `ctrl-s/ctrl-q` to suspend/unsuspend terminal
 * `reset` to fix the terminal
-* `watch` to repeat things
+* `watch` to repeat things 
 * `man` to read man-pages
 * `less`/`more` to manipulating paging output
 * `ls` to list files and dirs
@@ -15,3 +13,7 @@
 * `bc` to do math calculations
 * `ps -aef | more` or `top` to see running processes
 * `tree | more` to list directories as a tree=like structure
+
+* `ctrl-c` to interrupt processes
+* `ctrl-s/ctrl-q` to suspend/unsuspend terminal
+* `ctrl-d` to end data (i.e. end of file, end of input)
