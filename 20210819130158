@@ -1,0 +1,23 @@
+# understanding container states and storage
+
+image vs container
+  * the image is what ends up running in the container
+  * every time you call `run`, docker makes a new running instance of that image as a container 
+  * when you `exit` that container, docker pauses/stops the running container processes but automatically saves it's state (all the files that were changed, programs installed, etc)
+  * `docker start` brings the container's state back into memory and begins running it's processes again
+  * `docker commit` turns a container that is currently off and it's currently saved state into a new image
+     * once a container has been saved as an image, it can be saved on disk as a file, shared with others, and/or pushed to a registry like docker, github, or private registries hosted on aws, azure, gcp, etc
+
+dockerfile vs commit
+  * there are two ways to make an image: `docker build` and `docker commit`
+  * `docker build`
+     * creates an image from a dockerfile written in posix shell
+     * the essence of devops from the developers perspective is using a container with a consistent environment, and sharing that consistent container environment with everyone else on your team\
+     * best practice is to maintain/update your dockerfile as you make changes to your image
+       * that way you can use `docker push` to share your image
+  * `docker commit`
+     * creates a new image based on the state of a saved container
+     
+ where kubernetes and cloud native infrastructure fits in
+  * management of registries and container states, storage, processes, when a container runs and doesn't run -- i.e. container orchestration, is the essence of cloud native infrastructure and is what kubernetes does
+   
