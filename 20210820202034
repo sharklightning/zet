@@ -38,3 +38,4 @@ creates a hardlink where both `greet` and `hello` refer to exactly the same spac
 i.e. the two files are literally the same file
 
 <https://medium.com/@307/hard-links-and-symbolic-links-a-comparison-7f2b56864cdd>
+<http://www.turb0.one/pages/Multicall%20Binary%20Packer.html>
