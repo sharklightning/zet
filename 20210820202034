@@ -1,5 +1,40 @@
-# symlink v. hardlink
+# symlink, hardlink & multicall scripts
 
 The difference is that a symbolic link is an inode entry and a hard link is not. 
+
+Suppose I have a simple shell script titled `greet` that runs the command `echo "hello"`
+I can symlink `greet` to `hi` using 
+```
+ln -s greet hi
+```
+which creates an inode entry pointing to `greet` 
+```
+lrwxrwxrwx 1 you you 5 Aug 20 16:45 hi -> greet
+``` 
+
+I can now make a multicall script that changes behavior based on the name it is executed as:
+```
+#!bin/sh
+test ${0##*/} = hi && echo hi && exit
+echo "hello"
+  ```
+so that 
+  ````
+  ./hi
+  hi
+  ./greet
+  hello
+  ```
+  
+By contrast 
+```
+ln greet hello
+```
+creates a hardlink where both `greet` and `hello` refer to exactly the same space in memory
+```
+-rwxr-xr-x 2 you you 65 Aug 20 16:45 greet
+-rwxr-xr-x 2 you you 65 Aug 20 16:45 hello
+```
+i.e. the two files are literally the same file
 
 <https://medium.com/@307/hard-links-and-symbolic-links-a-comparison-7f2b56864cdd>
