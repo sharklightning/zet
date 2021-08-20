@@ -26,16 +26,22 @@ so that
   hello
   ```
   
-By contrast 
+By contrast
 ```
 ln greet hello
 ```
-creates a hardlink where both `greet` and `hello` refer to exactly the same space in memory
+creates a hardlink where both `greet` and `hello` point to exactly the same space in memory
 ```
 -rwxr-xr-x 2 you you 65 Aug 20 16:45 greet
 -rwxr-xr-x 2 you you 65 Aug 20 16:45 hello
 ```
 i.e. the two files are literally the same file
+
+In either case deleting the link does not delete the original file, but making modifications to either will modify the original file. 
+
+You can make multicalls using either. 
+
+Moving the original file will break it's symbolic links, but not a hard link.
 
 <https://medium.com/@307/hard-links-and-symbolic-links-a-comparison-7f2b56864cdd>
 <http://www.turb0.one/pages/Multicall%20Binary%20Packer.html>
