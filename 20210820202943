@@ -1,0 +1,9 @@
+# root directory
+
+Is the root of the filesystem tree. Inside root you have:
+  * `/bin` - is where the major binaries and anything that runs goes (binary, scripts)
+  * `/boot` - is where the linux kernel lives, probably don't want to play around there unless you are doing sysadmin
+  * `dev` - is where devices live
+    * haxx0rs hide stuff here
+  
+  
