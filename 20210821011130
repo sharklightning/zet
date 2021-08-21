@@ -2,51 +2,13 @@
 
 Streams are about sending data in different directions. Everything on a computer is streams of ones and zeros traveling in different directions.
 
-There are 3 main streams that are established when a command is executed. Streams are treated like files, and the associated number is it's file descriptor: 
+There are three streams that are established when a command is executed. Streams are treated like files, and the associated number is it's file descriptor: 
 
-    0: stdin
-    1: stdout
-    2: stderr
+    0: stdin - accepts text from the terminal by default
+    1: stdout - outputs text to the terminal by default
+    2: stderr - outputs error text to the terminal by default
     
-* stdin 
+ The default for each stream can be changed using redirection, covered in zettle [20210821205449](https://github.com/sharklightning/zet/blob/main/20210821205449)
+    
+ For a good overview: <https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/>
 
-* stdout
-  * prints output to the terminal (tty) by default
-  * `echo` outputs to stdout
-  * `printf
-  
-  
-* stderr
-* Standard Input
-
-### redirection
-
-Both stdout and stderr print to the terminal by default, for example:
-```
-~$ find / -name '*.md' 
-/usr/share/doc/libtasn1-6/README.md
-/usr/share/alsa/ucm/README.md
-/usr/share/alsa/ucm2/README.md
-find: '/root': Permission denied
-find: '/var/cache/apt/archives/partial': Permission denied
-```
-displays both the output stream (1) and the error stream (2) to the terminal. To seperate these streams we can use redirection, for example:
-```
-~$ find / -name '*.md' > find.out
-find: '/root': Permission denied
-find: '/var/cache/apt/archives/partial': Permission denied
-find: '/var/cache/ldconfig': Permission denied
-find: '/var/lib/apt/lists/partial': Permission denied
-find: '/proc/tty/driver': Permission denied
-find: '/proc/1/task/1/fd': Permission denied
-```
-redirects stdout to find.out so that only stderr is displayed on the terminal.
-
-Note that technically `> find.out` is the same as `1> find.out` but by convention you can drop file descriptor 1 when redirecting. 
-
-If we want to redirect both streams 1 and 2 to files we can execute:
-```
-~$ find / -name '*.md' > find.out 2 > find.err
-~$ ls .
-find.out find.err
-```
