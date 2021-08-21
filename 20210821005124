@@ -1,0 +1,3 @@
+# echo path in more useful format
+
+echo -e "${PATH//:/\\n}"
