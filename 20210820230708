@@ -8,3 +8,5 @@
 * `rm` - remove file or directory
 * `ln` - link to a file or dir
     * see [20210820202034](https://github.com/sharklightning/zet/blob/main/20210820202034) for more on links and symlinks
+* `file` - to see details about a file
+* `stat` - to see exhaustive details about a file or dir
