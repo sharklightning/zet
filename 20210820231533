@@ -1,0 +1,20 @@
+# view, search & organize lines of a file
+
+* `cat`- to display lines of a file
+* `tac` - to display lines of a file in reverse order
+* `head` - to display number of lines at top
+  * `head -1 foo` displays the first line at the top of foo
+  * `head -2 foo` displays the first two lines at the top of foo
+* `tail` - to display number of lines at bottom
+* `grep`- to find lines of a file
+  * `grep some foo` finds all occurences of the word some in the file foo
+  * `grep -r some` finds all occurences of some in any files located in the current dir and all subdirs
+  * `grep -i` makes grep case insensitive
+  * `grep -n` includes the line number 
+  * `grep -v some foo` gives every line that does not have the word some in foo
+* `wc` - to count the number of lines, words (seperated by white-space), and bytes
+* `uniq` - to find unique lines
+* `sort` - to sort lines
+* `which`- to see where command file lives
+  * not the same as `type`!
+
