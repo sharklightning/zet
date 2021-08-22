@@ -1,0 +1,7 @@
+# printf
+
+printf allows you to print variables as follows
+```
+~$ printf "cost: %s, date: %s\n" 59.00 "$(date)"
+cost: 59.00, date: Sat Aug 21 22:34:12 UTC 2021
+```
