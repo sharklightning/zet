@@ -1,9 +1,12 @@
-## redirection
+## stdout and error redirection
 
  * redirection changes the destination of a stream
   * `>` redirects stream to a file (either creating a new file or overwriting an existing file)
+   * WARNING: `>` is dangerous and can lead to losing your work if not used carefully; `set -o noclobber` to disable ability to overwrite using `>`
   * `>>` redirects stream to append to a file
+  * `>|` to force overwrite a file 
 
+### Example
 Both stdout and stderr print to the terminal by default, for example:
 ```
 ~$ find / -name '*.md' 
