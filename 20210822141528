@@ -1,0 +1,24 @@
+# pipes and pipelines
+
+A pipe gives you the ability to turn the standard output of one program into the standard input of another 
+
+Pipe the output of `echo` as the input of `bc`:
+```
+~$ echo '4 + 5' | bc
+9
+```
+
+Pipe the output of `grep` to `more` to see all the headers in a markdown file
+``` 
+~$ grep '#' README.md | more
+# header one
+## header two
+## header three
+```
+
+Pipe the output of `grep` and transform it using `sed` 
+```
+~$ grep '#' README.md | sed 's/\#*//' | more
+ header one
+ header two
+ header three
