@@ -1,0 +1,4 @@
+# Unix the way God intended
+
+
+"the unix way is to do make things that do one or two things really well, and that integrate well, and particularly *with integration*... the theme with pipelines is how do I integrate things using the pipeline method of attaching stdin and stdout? When you write utilities, you should be keeping this in mind. You should not just take arguments or be looking at a file, you should be reading from stdout when possible because adding these things up you end up coming up with solutions to things that you didnt even anticipate, because youre just doing it right -  and it makes your vimrc, your editor is really tiny now. Because why? Because now youre not obsessing over neovims, lua, java, node support or whatever, youre just using unix as god intended - *with pipelines*." - rwxrob 
