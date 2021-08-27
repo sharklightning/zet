@@ -1,0 +1,28 @@
+# stdin redirection
+
+redirecting stdin becomes more useful and interesting in the context of writing programs
+
+*note that anytime you have a pipeline you are implicitly redirecting the stdin of a program to accept the stdout of another*
+
+however when taking input from a file you will want to use `<` to redirect stdin to a program rather than using pipes, for example:
+
+say you want the output of a file called `bc.in` containing the data 'scale=2; 2/3' to be used as input to `bc`, you might be tempted to `cat` the output of the file to `bc` using a pipe
+```
+~$ cat bc.in | bc
+.66
+```
+NEVER DO THIS. 
+
+NEVER input data from a file to a program by piping `cat` into the program. Piping creates a child process underneath the preceding process. This child process has it's own seperate memory space and is *blind* to the parent's environment variables unless the parent exports them, so doing this makes your program blind to it's environment.
+
+Instead, redirect `bc` to accept the file as its input: 
+```
+~$ bc < bc.in
+.66
+```
+and from there you can continue piping away
+```
+~$ bc < bc.in | xargs printf "Value is: %s\n"
+Value is: .66
+```
+   * `xargs` reads items from the stdin, delimited by blanks, and executes a command using the items read from stdin
