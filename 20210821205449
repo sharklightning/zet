@@ -5,6 +5,9 @@
    * WARNING: `>` is dangerous and can lead to losing your work if not used carefully; `set -o noclobber` to disable ability to overwrite using `>`
   * `>>` redirects stream to append to a file
   * `>|` to force overwrite a file 
+  * `tee` to save and pipe (i.e. `tee` will save output to a file and also pass it along)
+    * ex. `echo 'scale=2; 2/3 | bc | tee bc.out` creates a file bc.out containing `.66` and also outputs `.66` to stdout (in this case, the terminal)
+    
 
 ### Example
 Both stdout and stderr print to the terminal by default, for example:
