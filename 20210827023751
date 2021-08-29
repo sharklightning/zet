@@ -13,7 +13,7 @@ say you want the output of a file called `bc.in` containing the data 'scale=2; 2
 ```
 NEVER DO THIS. 
 
-NEVER input data from a file to a program by piping `cat` into the program. Piping creates a child process underneath the preceding process. This child process has it's own seperate memory space and is *blind* to the parent's environment variables unless the parent exports them, so doing this makes your program blind to it's environment.
+NEVER input data from a file to a program by piping the output of `cat` into the program. Piping creates a child process underneath the preceding process. This child process has it's own seperate memory space and is *blind* to the parent's environment variables unless the parent exports them, so doing this makes your program blind to it's environment.
 
 Instead, redirect `bc` to accept the file as its input: 
 ```
