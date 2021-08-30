@@ -1,0 +1,21 @@
+# << "Here" Document Operator
+
+`<<` tells any command that accepts stdin to wait for a  specified input and then execute a special purpose code block known as a [*here document*](https://tldp.org/LDP/abs/html/here-docs.html), in generalized form it looks like:
+```
+COMMAND <<InputComesFromHERE
+...
+...
+...
+InputComesFromHERE
+```
+
+for example:
+```
+~$ cat <<END
+> some 
+> thing 
+> END
+some 
+thing
+```
+  * note: don't mix up inputs with arguments, some commands such as `echo` and `print` take arguments and not from stdin, so you cannot pipe or redirect stdin to these commands
