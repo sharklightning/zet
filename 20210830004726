@@ -1,0 +1,16 @@
+# read (user input)
+
+read prompts for user input:
+```
+~$ printf "Is that okay? (n)" ; read
+Is that okay? (n)
+```
+
+you can then store the response in a variable and use it (in this example we will just echo the response to the screen):
+```
+~$ printf "Is that okay? (n)" ; read resp; echo $resp
+Is that okay? (n)yes
+yes
+```
+
+you can use this for text based storyline games
