@@ -1,0 +1,16 @@
+# shellcheck
+
+`shellcheck` is a program that checks if your script is posix complaint
+
+for example,
+```
+mkdir some/long/ass/directory/name
+```
+works in bash but NOT posix (which is the basis of containers and kubernetes, dockerfiles must be written in posix)
+
+in posix you would have to
+```
+mkdir some; mkdir some/long; mkdir some/long/ass; mkdir some/long/ass/directory; mkdir some/long/ass/directory/name
+```
+
+always use `shellcheck` when writing posix scripts
