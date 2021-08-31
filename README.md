@@ -44,4 +44,4 @@
 [<< "Here" Document Operator](20210829223946.md)\
 [read (user input)](20210830004726.md)\
 [shellcheck](20210830005857.md)\
-[my zettlekasten](README.md)\
+
