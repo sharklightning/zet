@@ -24,24 +24,24 @@
 [bash vs. posix shell](20210817024132.md)\
 [make an infinite loop in bash](20210818001033.md)\
 [Debian Almquist shell (dash)](20210818011856.md)\
-20210818013349.md what is a pager?
-20210818014731.md rtfm (man pages)
-20210818020422.md how to learn git
-20210818213758.md some basic bash commands
-20210819021015.md manage background and foreground processes 
-20210819130158.md understanding container states and storage
-20210820202034.md symlink, hardlink & multicall scripts
-20210820202943.md root directory
-20210820230708.md working with files and directories
-20210820231533.md view, search & organize lines of a file
-20210821005124.md echo path in more useful format
-20210821011130.md stdout, stdin, & stderr
-20210821205449.md stdout and error redirection
-20210821205721.md printf
-20210822141528.md pipes and pipelines
-20210824020930.md UNIX the way God intended
-20210827023751.md stdin redirection
-20210829223946.md << "Here" Document Operator
-[read (user input)](20210830004726.md)
-[shellcheck](20210830005857.md)
-[my zettlekasten](README.md)
+[what is a pager?](20210818013349.md)\
+[rtfm (man pages)](20210818014731.md)\
+[how to learn git](20210818020422.md)\
+[some basic bash commands](20210818213758.md)\
+[manage background and foreground processes](20210819021015.md)\ 
+[understanding container states and storage](20210819130158.md)\
+[symlink, hardlink & multicall scripts](20210820202034.md)\
+[root directory](20210820202943.md)\
+[working with files and directories](20210820230708.md)\
+[view, search & organize lines of a file](20210820231533.md)\
+[echo path in more useful format](20210821005124.md)\
+[stdout, stdin, & stderr](20210821011130.md)\
+[stdout and error redirection](20210821205449.md)\
+[printf](20210821205721.md)\
+[pipes and pipelines](20210822141528.md)\
+[UNIX the way God intended](20210824020930.md)\
+[stdin redirection](20210827023751.md)\
+[<< "Here" Document Operator](20210829223946.md)\
+[read (user input)](20210830004726.md)\
+[shellcheck](20210830005857.md)\
+[my zettlekasten](README.md)\
