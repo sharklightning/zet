@@ -28,7 +28,7 @@
 [rtfm (man pages)](20210818014731.md)\
 [how to learn git](20210818020422.md)\
 [some basic bash commands](20210818213758.md)\
-[manage background and foreground processes](20210819021015.md)\ 
+[manage background and foreground processes](20210819021015.md)\
 [understanding container states and storage](20210819130158.md)\
 [symlink, hardlink & multicall scripts](20210820202034.md)\
 [root directory](20210820202943.md)\
@@ -43,5 +43,5 @@
 [stdin redirection](20210827023751.md)\
 [<< "Here" Document Operator](20210829223946.md)\
 [read (user input)](20210830004726.md)\
-[shellcheck](20210830005857.md)\
+[shellcheck](20210830005857.md)
 
