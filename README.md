@@ -1,5 +1,5 @@
 # my zettlekasten
-[Luhmann's methods](20210811020413.md)
+[Luhmann's methods](20210811020413.md)\
 [how to output an isosecond](20210812022123.md)
 [how to do a reference link in common markdown](20210812024415.md)
 [linux distros that are important in enterprise today](20210812192342.md)
