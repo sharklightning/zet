@@ -1,18 +1,17 @@
 # my zettlekasten
 [Luhmann's methods](20210811020413.md)
-
-20210812022123.md how to output an isosecond
-20210812024415.md how to do a reference link in common markdown
-20210812192342.md linux distros that are important in enterprise today
-20210813003916.md busybox containers
-20210813014754.md site reliability engineer
-20210813015725.md kubernetes
-20210813104317.md how linux works
-20210813115806.md processes
-20210813115918.md /proc
-20210813120106.md system calls
-20210813120314.md inter-process communication
-20210813172732.md community members
+[how to output an isosecond](20210812022123.md)
+[how to do a reference link in common markdown](20210812024415.md)
+[linux distros that are important in enterprise today](20210812192342.md)
+[busybox containers](20210813003916.md)
+[site reliability engineer](20210813014754.md)
+[kubernetes](20210813015725.md)
+[how linux works](20210813104317.md)
+[processes](20210813115806.md)
+[/proc](20210813115918.md)
+[system calls](20210813120106.md)
+[inter-process communication](20210813120314.md)
+[community members](20210813172732.md)
 20210813173102.md career paths (infrastructure engineering)
 20210814025138.md change workspace context of vscode
 20210814104620.md google sre qualifications
