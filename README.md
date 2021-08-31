@@ -43,4 +43,5 @@
 [stdin redirection](20210827023751.md)\
 [<< "Here" Document Operator](20210829223946.md)\
 [read (user input)](20210830004726.md)\
-[shellcheck](20210830005857.md)
+[shellcheck](20210830005857.md)\
+[creating users](20210831192050.md)
