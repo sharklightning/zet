@@ -45,4 +45,5 @@
 [read (user input)](20210830004726.md)\
 [shellcheck](20210830005857.md)\
 [creating users](20210831192050.md)\
-[usermod](20210831222213.md)
+[usermod](20210831222213.md)\
+[modifying permissions: chown](20210831224333.md)
