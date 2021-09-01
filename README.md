@@ -44,4 +44,5 @@
 [<< "Here" Document Operator](20210829223946.md)\
 [read (user input)](20210830004726.md)\
 [shellcheck](20210830005857.md)\
-[creating users](20210831192050.md)
+[creating users](20210831192050.md)\
+[usermod](20210831222213.md)
