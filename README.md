@@ -50,4 +50,6 @@
 [deleting users](20210901012325.md)\
 [/etc/shadow](20210901022743.md)\
 [login, who, id](20210902020512.md)\
-[more on permissions](20210902024755.md)
+[more on permissions](20210902024755.md)\
+[setuid, setgid](20210902141446.md)\
+[infosec](20210902165302.md)
