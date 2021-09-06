@@ -54,4 +54,6 @@
 [setuid, setgid](20210902141446.md)\
 [infosec](20210902165302.md)\
 [basic script: extract titles from zettles](20210902232117.md)\
-[more on ps & proc](20210904154412.md)
+[more on ps & proc](20210904154412.md)\
+[the command line interpreter](20210904154919.md)\
+[interpreted vs compiled languages](20210906013112.md)
