@@ -43,4 +43,4 @@
 [more on ps & proc](20210904154412.md)\
 [the command line interpreter](20210904154919.md)\
 [interpreted vs compiled languages](20210906013112.md)\
-[what's up with /usr/bin/env](20210906034627.md)
+[#!/usr/bin/env](20210906034627.md)
