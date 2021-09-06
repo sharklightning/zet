@@ -39,7 +39,6 @@
 [login, who, id](20210902020512.md)\
 [more on permissions](20210902024755.md)\
 [setuid, setgid](20210902141446.md)\
-[infosec](20210902165302.md)\
 [basic script: extract titles from zettles](20210902232117.md)\
 [more on ps & proc](20210904154412.md)\
 [the command line interpreter](20210904154919.md)\
