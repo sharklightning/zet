@@ -46,4 +46,7 @@
 [#!/usr/bin/env](20210906034627.md)\
 [running & sourcing scripts](20210906180347.md)\
 [the path environment variable](20210906202355.md)\
-[which, type, and aliases](20210906203136.md)
+[which, type, and aliases](20210906203136.md)\
+[managing jobs & processes](20210906204928.md)\
+[crontab](20210906213735.md)\
+[functions vs procedures](20210906215943.md)
