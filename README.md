@@ -5,7 +5,6 @@
 [/proc](20210813115918.md)\
 [system calls](20210813120106.md)\
 [inter-process communication](20210813120314.md)\
-[google sre qualifications](20210814104620.md)\
 [containers & kubernetes](20210814134248.md)\
 [essential docker commands, STDIN, and TTY](20210817002245.md)\
 [cli vs terminal](20210817022210.md) \
