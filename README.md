@@ -45,5 +45,5 @@
 [interpreted vs compiled languages](20210906013112.md)\
 [#!/usr/bin/env](20210906034627.md)\
 [running & sourcing scripts](20210906180347.md)\
-[the path environment variable](20210906202355.md)
- 
+[the path environment variable](20210906202355.md)\
+[which, type, and aliases](20210906203136.md)
