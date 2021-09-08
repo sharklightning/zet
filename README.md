@@ -10,7 +10,7 @@
 [cli vs terminal](20210817022210.md) \
 [bash vs. posix shell](20210817024132.md)\
 [make an infinite loop in bash](20210818001033.md)\
-[Debian almquist shell (dash)](20210818011856.md)\
+[debian almquist shell (dash)](20210818011856.md)\
 [what is a pager?](20210818013349.md)\
 [rtfm (man pages)](20210818014731.md)\
 [how to learn git](20210818020422.md)\
