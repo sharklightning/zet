@@ -50,7 +50,7 @@
 [managing jobs & processes](20210906204928.md)\
 [crontab](20210906213735.md)\
 [functions vs procedures](20210906215943.md)\
-[subroutines and procedures](20210906231840.md)
+[subroutines and procedures](20210906231840.md)\
 [state](20210906233748.md)\
 [always use shellcheck](20210907002440.md)\
 [posix beginner tips](20210907015806.md)\
