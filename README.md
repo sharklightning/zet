@@ -51,4 +51,8 @@
 [crontab](20210906213735.md)\
 [functions vs procedures](20210906215943.md)\
 [subroutines and procedures](20210906231840.md)
-
+[state](20210906233748.md)\
+[always use shellcheck](20210907002440.md)\
+[posix beginner tips](20210907015806.md)\
+[some terminology and/or slang](20210907231729.md)\
+[variables in posix](20210908003312.md)
