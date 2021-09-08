@@ -55,4 +55,7 @@
 [shellcheck](20210907002440.md)\
 [posix beginner tips](20210907015806.md)\
 [some terminology and/or slang](20210907231729.md)\
-[variables in posix](20210908003312.md)
+[variables in posix](20210908003312.md)\
+[disambiguation brackets](20210908005809.md)\
+[single quotes](20210908010734.md)\
+[math in posix](20210908014429.md)
