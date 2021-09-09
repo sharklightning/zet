@@ -58,4 +58,5 @@
 [variables in posix](20210908003312.md)\
 [disambiguation brackets](20210908005809.md)\
 [single quotes](20210908010734.md)\
-[math in posix](20210908014429.md)
+[math in posix](20210908014429.md)\
+[more on variables in shell](20210909014832.md)
