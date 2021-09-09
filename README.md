@@ -59,4 +59,6 @@
 [disambiguation brackets](20210908005809.md)\
 [single quotes](20210908010734.md)\
 [math in posix](20210908014429.md)\
-[more on variables in shell](20210909014832.md)
+[more on variables in shell](20210909014832.md)\
+[global vs local variables](20210909021817.md)
+ 
