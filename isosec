@@ -1,3 +1,5 @@
 #!/bin/sh
-touch $(date -u +%Y%m%d%H%M%S).md
-vi $(date -u +%Y%m%d%H%M%S).md
+
+zet="$(date -u +%Y%m%d%H%M%S).md"
+touch "$zet"
+vi "$zet"
