@@ -64,5 +64,6 @@
 [variable stomping & debugging](20210909143307.md)\
 [procedure/function calls](20210909225023.md)\
 [passing arguments](20210910010856.md)\
-[return values, exit codes, output](20210910155535.md)
-
+[return values, exit codes, output](20210910155535.md)\
+[conditionals, &&, return early](20210910185925.md)\
+[parameter expansion bug](20210911014857.md)
