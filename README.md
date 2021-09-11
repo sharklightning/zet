@@ -62,5 +62,7 @@
 [more on variables in shell](20210909014832.md)\
 [global vs local variables](20210909021817.md)\
 [variable stomping & debugging](20210909143307.md)\
-[procedure/function calls](20210909225023.md)
+[procedure/function calls](20210909225023.md)\
+[passing arguments](20210910010856.md)\
+[return values, exit codes, output](20210910155535.md)
 
