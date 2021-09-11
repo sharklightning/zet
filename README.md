@@ -66,4 +66,5 @@
 [passing arguments](20210910010856.md)\
 [return values, exit codes, output](20210910155535.md)\
 [conditionals, &&, return early](20210910185925.md)\
-[parameter expansion bug](20210911014857.md)
+[parameter expansion bug](20210911014857.md)\
+[test operator, error handling](20210911130217.md)
