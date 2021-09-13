@@ -68,4 +68,6 @@
 [conditionals, &&, return early](20210910185925.md)\
 [parameter expansion bug](20210911014857.md)\
 [test operator, error handling](20210911130217.md)\
-[set -e](20210911185404.md)
+[set -e](20210911185404.md)\
+[\[ \] vs \[\[ \]\]](20210911205401.md)
+ 
