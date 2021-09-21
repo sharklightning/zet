@@ -70,5 +70,7 @@
 [test operator, error handling](20210911130217.md)\
 [set -e](20210911185404.md)\
 [\[ \] vs \[\[ \]\]](20210911205401.md)\
-[short circuit logic](20210913001750.md)
+[short circuit logic](20210913001750.md)\
+[loops](20210918133629.md)
+
  
