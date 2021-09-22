@@ -72,6 +72,7 @@
 [\[ \] vs \[\[ \]\]](20210911205401.md)\
 [short circuit logic](20210913001750.md)\
 [loops](20210918133629.md)\
-[more on loops in posix](20210921125519.md)
+[more on loops in posix](20210921125519.md)\
+[signals, traps, ipc](20210922021224.md)
 
  
