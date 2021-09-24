@@ -76,6 +76,5 @@
 [signals, traps, ipc](20210922021224.md)\
 [exec](20210922031721.md)\
 [delimited data](20210923190242.md)\
-
 [JSON and jq](20210924003134.md)\
 [YAML and yq](20210924023113.md)\
