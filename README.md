@@ -78,3 +78,4 @@
 [delimited data](20210923190242.md)\
 [JSON and jq](20210924003134.md)\
 [YAML and yq](20210924023113.md)\
+[manipulating delimited data](20210925125352.md)\
