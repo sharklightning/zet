@@ -80,3 +80,5 @@
 [YAML and yq](20210924023113.md)\
 [manipulating delimited data](20210925125352.md)\
 [the problem with CSV](20210928015519.md)\
+[JSON is for parsing](20211001001425.md)\
+[schemas & domain modeling](20211002134109.md)\
