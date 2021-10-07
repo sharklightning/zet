@@ -82,3 +82,4 @@
 [the problem with CSV](20210928015519.md)\
 [JSON is for parsing](20211001001425.md)\
 [schemas & domain modeling](20211002134109.md)\
+[Pattern Matching (Globbing)](20211006132201.md)\
